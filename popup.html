@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1 data-i18n="popupTitle"></h1>
+  <p class="sub" data-i18n="popupSub"></p>
+
+  <div class="label" data-i18n="howMany"></div>
+  <div class="seg" id="mode">
+    <button data-value="all" data-i18n="modeAll"></button>
+    <button data-value="count" data-i18n="modeLast"></button>
+  </div>
+  <div class="count-row" id="countRow" hidden>
+    <input id="count" type="number" min="1" step="1" value="10" inputmode="numeric">
+    <span data-i18n="lastSuffix"></span>
+  </div>
+
+  <div class="label" data-i18n="speed"></div>
+  <div class="seg" id="speed">
+    <button data-value="careful" data-i18n="speedCareful"></button>
+    <button data-value="normal" data-i18n="speedNormal"></button>
+    <button data-value="fast" data-i18n="speedFast"></button>
+  </div>
+
+  <button class="go" id="go"></button>
+  <p class="msg" id="msg"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

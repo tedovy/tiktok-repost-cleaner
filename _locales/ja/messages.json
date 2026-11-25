@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "TikTok リポスト一括削除"
+  },
+  "extDesc": {
+    "message": "ボタン一つで TikTok のプロフィールを開き、リポストをすべて、または最新のものだけ削除します。"
+  },
+  "actionTitle": {
+    "message": "TikTok のリポストを削除"
+  },
+  "popupTitle": {
+    "message": "リポストを削除"
+  },
+  "popupSub": {
+    "message": "TikTok のプロフィールを開いて、リポストを削除します。"
+  },
+  "howMany": {
+    "message": "削除する数"
+  },
+  "modeAll": {
+    "message": "すべて"
+  },
+  "modeLast": {
+    "message": "最新…"
+  },
+  "lastSuffix": {
+    "message": "件の最新リポスト"
+  },
+  "speed": {
+    "message": "速度"
+  },
+  "speedCareful": {
+    "message": "慎重"
+  },
+  "speedNormal": {
+    "message": "標準"
+  },
+  "speedFast": {
+    "message": "高速"
+  },
+  "btnAll": {
+    "message": "すべてのリポストを削除"
+  },
+  "btnLast": {
+    "message": "最新 $COUNT$ 件を削除",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "削除するリポストの数を入力してください。"
+  },
+  "errLogin": {
+    "message": "このタブで TikTok にログインしてから、もう一度ボタンを押してください。"
+  },
+  "errTimeout": {
+    "message": "30 秒以内にプロフィールが開きませんでした。TikTok にログインしているか確認してください。"
+  },
+  "panelTitle": {
+    "message": "リポストを削除中"
+  },
+  "hide": {
+    "message": "隠す"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "reload": {
+    "message": "ページを再読み込み"
+  },
+  "starting": {
+    "message": "開始しています…"
+  },
+  "collecting": {
+    "message": "リポストを取得中…"
+  },
+  "found": {
+    "message": "取得中… {n} 件見つかりました"
+  },
+  "deleting": {
+    "message": "リポストを削除中…"
+  },
+  "throttled": {
+    "message": "TikTok が制限中です。{n} 秒待機しています…"
+  },
+  "of": {
+    "message": "/ {n}"
+  },
+  "rate": {
+    "message": "{n} 件/秒"
+  },
+  "stopping": {
+    "message": "停止しています…"
+  },
+  "stopped": {
+    "message": "停止しました。削除済み：{n} 件。"
+  },
+  "none": {
+    "message": "リポストはありません。"
+  },
+  "done": {
+    "message": "完了！削除したリポスト：{n} 件。"
+  },
+  "failedTail": {
+    "message": " 失敗：{n} 件。"
+  },
+  "notLoggedIn": {
+    "message": "TikTok にログインしていないようです。ログインしてから、もう一度ボタンを押してください。"
+  },
+  "limited": {
+    "message": "TikTok が現在リクエストを制限しています。削除済み：{n} 件。数分後にもう一度お試しください。"
+  }
+}

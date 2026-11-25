@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "TikTok 리포스트 정리"
+  },
+  "extDesc": {
+    "message": "버튼 하나로 TikTok 프로필을 열고 리포스트를 모두 또는 최근 것만 삭제합니다."
+  },
+  "actionTitle": {
+    "message": "TikTok 리포스트 삭제"
+  },
+  "popupTitle": {
+    "message": "리포스트 삭제"
+  },
+  "popupSub": {
+    "message": "TikTok 프로필을 열고 리포스트를 삭제합니다."
+  },
+  "howMany": {
+    "message": "삭제할 개수"
+  },
+  "modeAll": {
+    "message": "전체"
+  },
+  "modeLast": {
+    "message": "최근…"
+  },
+  "lastSuffix": {
+    "message": "개의 최근 리포스트"
+  },
+  "speed": {
+    "message": "속도"
+  },
+  "speedCareful": {
+    "message": "신중하게"
+  },
+  "speedNormal": {
+    "message": "보통"
+  },
+  "speedFast": {
+    "message": "빠르게"
+  },
+  "btnAll": {
+    "message": "리포스트 모두 삭제"
+  },
+  "btnLast": {
+    "message": "최근 $COUNT$개 삭제",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "삭제할 리포스트 개수를 입력하세요."
+  },
+  "errLogin": {
+    "message": "이 탭에서 TikTok에 로그인한 뒤 버튼을 다시 누르세요."
+  },
+  "errTimeout": {
+    "message": "30초 안에 프로필이 열리지 않았습니다. TikTok에 로그인했는지 확인하세요."
+  },
+  "panelTitle": {
+    "message": "리포스트 삭제 중"
+  },
+  "hide": {
+    "message": "숨기기"
+  },
+  "stop": {
+    "message": "중지"
+  },
+  "reload": {
+    "message": "페이지 새로고침"
+  },
+  "starting": {
+    "message": "시작하는 중…"
+  },
+  "collecting": {
+    "message": "리포스트를 불러오는 중…"
+  },
+  "found": {
+    "message": "불러오는 중… {n}개 찾음"
+  },
+  "deleting": {
+    "message": "리포스트 삭제 중…"
+  },
+  "throttled": {
+    "message": "TikTok이 속도를 제한하고 있어요. {n}초 기다리는 중…"
+  },
+  "of": {
+    "message": "/ {n}"
+  },
+  "rate": {
+    "message": "초당 {n}개"
+  },
+  "stopping": {
+    "message": "중지하는 중…"
+  },
+  "stopped": {
+    "message": "중지됨. 삭제: {n}개."
+  },
+  "none": {
+    "message": "리포스트가 없어 삭제할 항목이 없습니다."
+  },
+  "done": {
+    "message": "완료! 삭제한 리포스트: {n}개."
+  },
+  "failedTail": {
+    "message": " 실패: {n}개."
+  },
+  "notLoggedIn": {
+    "message": "TikTok에 로그인하지 않은 것 같아요. 로그인한 뒤 버튼을 다시 누르세요."
+  },
+  "limited": {
+    "message": "TikTok이 지금 요청을 제한하고 있어요. 삭제: {n}개. 몇 분 후에 다시 시도하세요."
+  }
+}

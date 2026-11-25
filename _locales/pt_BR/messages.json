@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "TikTok Repost Cleaner"
+  },
+  "extDesc": {
+    "message": "Um botão: abre seu perfil do TikTok e remove todos os seus reposts, ou só os mais recentes."
+  },
+  "actionTitle": {
+    "message": "Remover reposts do TikTok"
+  },
+  "popupTitle": {
+    "message": "Remover reposts"
+  },
+  "popupSub": {
+    "message": "Abre seu perfil do TikTok e remove seus reposts."
+  },
+  "howMany": {
+    "message": "Quantos"
+  },
+  "modeAll": {
+    "message": "Todos"
+  },
+  "modeLast": {
+    "message": "Recentes…"
+  },
+  "lastSuffix": {
+    "message": "reposts mais recentes"
+  },
+  "speed": {
+    "message": "Velocidade"
+  },
+  "speedCareful": {
+    "message": "Cuidadoso"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Rápido"
+  },
+  "btnAll": {
+    "message": "Remover todos os reposts"
+  },
+  "btnLast": {
+    "message": "Remover os últimos $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "Digite quantos reposts remover."
+  },
+  "errLogin": {
+    "message": "Entre no TikTok nesta aba e depois clique no botão de novo."
+  },
+  "errTimeout": {
+    "message": "O perfil não abriu em 30 segundos. Verifique se você entrou no TikTok."
+  },
+  "panelTitle": {
+    "message": "Removendo reposts"
+  },
+  "hide": {
+    "message": "Ocultar"
+  },
+  "stop": {
+    "message": "Parar"
+  },
+  "reload": {
+    "message": "Atualizar página"
+  },
+  "starting": {
+    "message": "Iniciando…"
+  },
+  "collecting": {
+    "message": "Coletando seus reposts…"
+  },
+  "found": {
+    "message": "Coletando… {n} encontrados"
+  },
+  "deleting": {
+    "message": "Removendo reposts…"
+  },
+  "throttled": {
+    "message": "O TikTok está limitando, aguardando {n} s…"
+  },
+  "of": {
+    "message": "de {n}"
+  },
+  "rate": {
+    "message": "{n}/s"
+  },
+  "stopping": {
+    "message": "Parando…"
+  },
+  "stopped": {
+    "message": "Parado. Removidos: {n}."
+  },
+  "none": {
+    "message": "Nenhum repost, nada para remover."
+  },
+  "done": {
+    "message": "Pronto! Reposts removidos: {n}."
+  },
+  "failedTail": {
+    "message": " Falharam: {n}."
+  },
+  "notLoggedIn": {
+    "message": "Parece que você não entrou no TikTok. Entre e clique no botão de novo."
+  },
+  "limited": {
+    "message": "O TikTok está limitando as solicitações agora. Removidos: {n}. Tente de novo em alguns minutos."
+  }
+}

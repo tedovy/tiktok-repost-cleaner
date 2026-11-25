@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "منظّف إعادات النشر في TikTok"
+  },
+  "extDesc": {
+    "message": "زر واحد: يفتح ملفك الشخصي على TikTok ويحذف كل إعادات النشر، أو أحدثها فقط."
+  },
+  "actionTitle": {
+    "message": "حذف إعادات النشر في TikTok"
+  },
+  "popupTitle": {
+    "message": "حذف إعادات النشر"
+  },
+  "popupSub": {
+    "message": "سيفتح ملفك الشخصي على TikTok ويحذف إعادات النشر."
+  },
+  "howMany": {
+    "message": "كم تريد أن تحذف"
+  },
+  "modeAll": {
+    "message": "الكل"
+  },
+  "modeLast": {
+    "message": "الأحدث…"
+  },
+  "lastSuffix": {
+    "message": "من أحدث إعادات النشر"
+  },
+  "speed": {
+    "message": "السرعة"
+  },
+  "speedCareful": {
+    "message": "بحذر"
+  },
+  "speedNormal": {
+    "message": "عادي"
+  },
+  "speedFast": {
+    "message": "سريع"
+  },
+  "btnAll": {
+    "message": "حذف كل إعادات النشر"
+  },
+  "btnLast": {
+    "message": "حذف أحدث $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "اكتب عدد إعادات النشر التي تريد حذفها."
+  },
+  "errLogin": {
+    "message": "سجّل الدخول إلى TikTok في هذا التبويب أولًا، ثم اضغط الزر مرة أخرى."
+  },
+  "errTimeout": {
+    "message": "لم يُفتح الملف الشخصي خلال 30 ثانية. تأكد من أنك سجّلت الدخول إلى TikTok."
+  },
+  "panelTitle": {
+    "message": "جارٍ حذف إعادات النشر"
+  },
+  "hide": {
+    "message": "إخفاء"
+  },
+  "stop": {
+    "message": "إيقاف"
+  },
+  "reload": {
+    "message": "تحديث الصفحة"
+  },
+  "starting": {
+    "message": "جارٍ البدء…"
+  },
+  "collecting": {
+    "message": "جارٍ جمع إعادات النشر…"
+  },
+  "found": {
+    "message": "جارٍ الجمع… تم العثور على {n}"
+  },
+  "deleting": {
+    "message": "جارٍ حذف إعادات النشر…"
+  },
+  "throttled": {
+    "message": "TikTok يبطئ الطلبات، الانتظار {n} ث…"
+  },
+  "of": {
+    "message": "من {n}"
+  },
+  "rate": {
+    "message": "{n}/ث"
+  },
+  "stopping": {
+    "message": "جارٍ الإيقاف…"
+  },
+  "stopped": {
+    "message": "تم الإيقاف. المحذوف: {n}."
+  },
+  "none": {
+    "message": "لا توجد إعادات نشر، لا شيء لحذفه."
+  },
+  "done": {
+    "message": "تم! عدد إعادات النشر المحذوفة: {n}."
+  },
+  "failedTail": {
+    "message": " تعذّر حذف: {n}."
+  },
+  "notLoggedIn": {
+    "message": "يبدو أنك لم تسجّل الدخول إلى TikTok. سجّل الدخول ثم اضغط الزر مرة أخرى."
+  },
+  "limited": {
+    "message": "يقيّد TikTok الطلبات حاليًا. المحذوف: {n}. حاول مرة أخرى بعد بضع دقائق."
+  }
+}

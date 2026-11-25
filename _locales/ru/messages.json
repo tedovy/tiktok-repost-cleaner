@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Удалить репосты TikTok"
+  },
+  "extDesc": {
+    "message": "Одна кнопка: открывает твой профиль TikTok и удаляет все репосты — или только последние."
+  },
+  "actionTitle": {
+    "message": "Удалить репосты TikTok"
+  },
+  "popupTitle": {
+    "message": "Удалить репосты"
+  },
+  "popupSub": {
+    "message": "Откроет твой профиль TikTok и удалит репосты."
+  },
+  "howMany": {
+    "message": "Сколько удалить"
+  },
+  "modeAll": {
+    "message": "Все"
+  },
+  "modeLast": {
+    "message": "Последние…"
+  },
+  "lastSuffix": {
+    "message": "последних репостов"
+  },
+  "speed": {
+    "message": "Скорость"
+  },
+  "speedCareful": {
+    "message": "Осторожно"
+  },
+  "speedNormal": {
+    "message": "Обычно"
+  },
+  "speedFast": {
+    "message": "Быстро"
+  },
+  "btnAll": {
+    "message": "Удалить все репосты"
+  },
+  "btnLast": {
+    "message": "Удалить последние $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "Напиши, сколько репостов удалить."
+  },
+  "errLogin": {
+    "message": "Сначала войди в TikTok в этой вкладке, потом нажми кнопку ещё раз."
+  },
+  "errTimeout": {
+    "message": "Профиль не открылся за 30 секунд. Проверь, что ты вошёл в TikTok."
+  },
+  "panelTitle": {
+    "message": "Удаление репостов"
+  },
+  "hide": {
+    "message": "Скрыть"
+  },
+  "stop": {
+    "message": "Остановить"
+  },
+  "reload": {
+    "message": "Обновить страницу"
+  },
+  "starting": {
+    "message": "Запускаю…"
+  },
+  "collecting": {
+    "message": "Собираю список репостов…"
+  },
+  "found": {
+    "message": "Собираю список… найдено {n}"
+  },
+  "deleting": {
+    "message": "Удаляю репосты…"
+  },
+  "throttled": {
+    "message": "TikTok притормозил, жду {n} с…"
+  },
+  "of": {
+    "message": "из {n}"
+  },
+  "rate": {
+    "message": "{n}/с"
+  },
+  "stopping": {
+    "message": "Останавливаю…"
+  },
+  "stopped": {
+    "message": "Остановлено. Удалено: {n}."
+  },
+  "none": {
+    "message": "Репостов нет — удалять нечего."
+  },
+  "done": {
+    "message": "Готово! Удалено репостов: {n}."
+  },
+  "failedTail": {
+    "message": " Не удалось: {n}."
+  },
+  "notLoggedIn": {
+    "message": "Не вижу, что ты вошёл в TikTok. Войди в аккаунт и нажми кнопку ещё раз."
+  },
+  "limited": {
+    "message": "TikTok сейчас ограничивает запросы. Удалено: {n}. Попробуй ещё раз через несколько минут."
+  }
+}

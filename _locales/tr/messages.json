@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "TikTok Repost Cleaner"
+  },
+  "extDesc": {
+    "message": "Tek tuş: TikTok profilini açar ve tüm repostlarını ya da yalnızca en yenilerini siler."
+  },
+  "actionTitle": {
+    "message": "TikTok repostlarını sil"
+  },
+  "popupTitle": {
+    "message": "Repostları sil"
+  },
+  "popupSub": {
+    "message": "TikTok profilini açar ve repostlarını siler."
+  },
+  "howMany": {
+    "message": "Kaç tane"
+  },
+  "modeAll": {
+    "message": "Tümü"
+  },
+  "modeLast": {
+    "message": "En yeni…"
+  },
+  "lastSuffix": {
+    "message": "en yeni repost"
+  },
+  "speed": {
+    "message": "Hız"
+  },
+  "speedCareful": {
+    "message": "Dikkatli"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Hızlı"
+  },
+  "btnAll": {
+    "message": "Tüm repostları sil"
+  },
+  "btnLast": {
+    "message": "En yeni $COUNT$ tanesini sil",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "Kaç repost silineceğini yaz."
+  },
+  "errLogin": {
+    "message": "Bu sekmede TikTok'a giriş yap, sonra tuşa tekrar bas."
+  },
+  "errTimeout": {
+    "message": "Profil 30 saniye içinde açılmadı. TikTok'a giriş yaptığından emin ol."
+  },
+  "panelTitle": {
+    "message": "Repostlar siliniyor"
+  },
+  "hide": {
+    "message": "Gizle"
+  },
+  "stop": {
+    "message": "Durdur"
+  },
+  "reload": {
+    "message": "Sayfayı yenile"
+  },
+  "starting": {
+    "message": "Başlatılıyor…"
+  },
+  "collecting": {
+    "message": "Repostların toplanıyor…"
+  },
+  "found": {
+    "message": "Toplanıyor… {n} bulundu"
+  },
+  "deleting": {
+    "message": "Repostlar siliniyor…"
+  },
+  "throttled": {
+    "message": "TikTok yavaşlatıyor, {n} sn bekleniyor…"
+  },
+  "of": {
+    "message": "/ {n}"
+  },
+  "rate": {
+    "message": "{n}/sn"
+  },
+  "stopping": {
+    "message": "Durduruluyor…"
+  },
+  "stopped": {
+    "message": "Durduruldu. Silinen: {n}."
+  },
+  "none": {
+    "message": "Repost yok, silinecek bir şey yok."
+  },
+  "done": {
+    "message": "Tamam! Silinen repost: {n}."
+  },
+  "failedTail": {
+    "message": " Başarısız: {n}."
+  },
+  "notLoggedIn": {
+    "message": "TikTok'a giriş yapmamış görünüyorsun. Giriş yap ve tuşa tekrar bas."
+  },
+  "limited": {
+    "message": "TikTok şu anda istekleri sınırlıyor. Silinen: {n}. Birkaç dakika sonra tekrar dene."
+  }
+}

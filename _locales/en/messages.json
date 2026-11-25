@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "TikTok Repost Cleaner"
+  },
+  "extDesc": {
+    "message": "One button: opens your TikTok profile and removes all your reposts — or just the latest few."
+  },
+  "actionTitle": {
+    "message": "Remove TikTok reposts"
+  },
+  "popupTitle": {
+    "message": "Remove reposts"
+  },
+  "popupSub": {
+    "message": "Opens your TikTok profile and removes your reposts."
+  },
+  "howMany": {
+    "message": "How many"
+  },
+  "modeAll": {
+    "message": "All"
+  },
+  "modeLast": {
+    "message": "Latest…"
+  },
+  "lastSuffix": {
+    "message": "latest reposts"
+  },
+  "speed": {
+    "message": "Speed"
+  },
+  "speedCareful": {
+    "message": "Careful"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Fast"
+  },
+  "btnAll": {
+    "message": "Remove all reposts"
+  },
+  "btnLast": {
+    "message": "Remove latest $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "Enter how many reposts to remove."
+  },
+  "errLogin": {
+    "message": "Log in to TikTok in this tab, then press the button again."
+  },
+  "errTimeout": {
+    "message": "The profile didn't open within 30 seconds. Make sure you're logged in to TikTok."
+  },
+  "panelTitle": {
+    "message": "Removing reposts"
+  },
+  "hide": {
+    "message": "Hide"
+  },
+  "stop": {
+    "message": "Stop"
+  },
+  "reload": {
+    "message": "Refresh page"
+  },
+  "starting": {
+    "message": "Starting…"
+  },
+  "collecting": {
+    "message": "Collecting your reposts…"
+  },
+  "found": {
+    "message": "Collecting… found {n}"
+  },
+  "deleting": {
+    "message": "Removing reposts…"
+  },
+  "throttled": {
+    "message": "TikTok is slowing down, waiting {n} s…"
+  },
+  "of": {
+    "message": "of {n}"
+  },
+  "rate": {
+    "message": "{n}/s"
+  },
+  "stopping": {
+    "message": "Stopping…"
+  },
+  "stopped": {
+    "message": "Stopped. Removed: {n}."
+  },
+  "none": {
+    "message": "No reposts — nothing to remove."
+  },
+  "done": {
+    "message": "Done! Reposts removed: {n}."
+  },
+  "failedTail": {
+    "message": " Failed: {n}."
+  },
+  "notLoggedIn": {
+    "message": "You don't seem to be logged in to TikTok. Log in and press the button again."
+  },
+  "limited": {
+    "message": "TikTok is limiting requests right now. Removed: {n}. Try again in a few minutes."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "TikTok Repost Cleaner"
+  },
+  "extDesc": {
+    "message": "Un seul bouton : ouvre ton profil TikTok et supprime toutes tes republications, ou seulement les plus récentes."
+  },
+  "actionTitle": {
+    "message": "Supprimer les republications TikTok"
+  },
+  "popupTitle": {
+    "message": "Supprimer les republications"
+  },
+  "popupSub": {
+    "message": "Ouvre ton profil TikTok et supprime tes republications."
+  },
+  "howMany": {
+    "message": "Combien"
+  },
+  "modeAll": {
+    "message": "Toutes"
+  },
+  "modeLast": {
+    "message": "Récentes…"
+  },
+  "lastSuffix": {
+    "message": "republications récentes"
+  },
+  "speed": {
+    "message": "Vitesse"
+  },
+  "speedCareful": {
+    "message": "Prudent"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Rapide"
+  },
+  "btnAll": {
+    "message": "Supprimer toutes les republications"
+  },
+  "btnLast": {
+    "message": "Supprimer les $COUNT$ dernières",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "Indique combien de republications supprimer."
+  },
+  "errLogin": {
+    "message": "Connecte-toi à TikTok dans cet onglet, puis appuie à nouveau sur le bouton."
+  },
+  "errTimeout": {
+    "message": "Le profil ne s'est pas ouvert en 30 secondes. Vérifie que tu es connecté à TikTok."
+  },
+  "panelTitle": {
+    "message": "Suppression des republications"
+  },
+  "hide": {
+    "message": "Masquer"
+  },
+  "stop": {
+    "message": "Arrêter"
+  },
+  "reload": {
+    "message": "Actualiser la page"
+  },
+  "starting": {
+    "message": "Démarrage…"
+  },
+  "collecting": {
+    "message": "Récupération de tes republications…"
+  },
+  "found": {
+    "message": "Récupération… {n} trouvées"
+  },
+  "deleting": {
+    "message": "Suppression des republications…"
+  },
+  "throttled": {
+    "message": "TikTok ralentit, attente de {n} s…"
+  },
+  "of": {
+    "message": "sur {n}"
+  },
+  "rate": {
+    "message": "{n}/s"
+  },
+  "stopping": {
+    "message": "Arrêt…"
+  },
+  "stopped": {
+    "message": "Arrêté. Supprimées : {n}."
+  },
+  "none": {
+    "message": "Aucune republication, rien à supprimer."
+  },
+  "done": {
+    "message": "Terminé ! Republications supprimées : {n}."
+  },
+  "failedTail": {
+    "message": " Échecs : {n}."
+  },
+  "notLoggedIn": {
+    "message": "Tu ne sembles pas connecté à TikTok. Connecte-toi et appuie à nouveau sur le bouton."
+  },
+  "limited": {
+    "message": "TikTok limite les requêtes pour le moment. Supprimées : {n}. Réessaie dans quelques minutes."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "TikTok Repost Cleaner"
+  },
+  "extDesc": {
+    "message": "Ein Klick: öffnet dein TikTok-Profil und entfernt alle deine Reposts – oder nur die neuesten."
+  },
+  "actionTitle": {
+    "message": "TikTok-Reposts entfernen"
+  },
+  "popupTitle": {
+    "message": "Reposts entfernen"
+  },
+  "popupSub": {
+    "message": "Öffnet dein TikTok-Profil und entfernt deine Reposts."
+  },
+  "howMany": {
+    "message": "Wie viele"
+  },
+  "modeAll": {
+    "message": "Alle"
+  },
+  "modeLast": {
+    "message": "Neueste…"
+  },
+  "lastSuffix": {
+    "message": "neueste Reposts"
+  },
+  "speed": {
+    "message": "Tempo"
+  },
+  "speedCareful": {
+    "message": "Vorsichtig"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Schnell"
+  },
+  "btnAll": {
+    "message": "Alle Reposts entfernen"
+  },
+  "btnLast": {
+    "message": "Neueste $COUNT$ entfernen",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "needCount": {
+    "message": "Gib ein, wie viele Reposts entfernt werden sollen."
+  },
+  "errLogin": {
+    "message": "Melde dich in diesem Tab bei TikTok an und klicke dann erneut auf den Button."
+  },
+  "errTimeout": {
+    "message": "Das Profil hat sich nicht innerhalb von 30 Sekunden geöffnet. Prüfe, ob du bei TikTok angemeldet bist."
+  },
+  "panelTitle": {
+    "message": "Reposts werden entfernt"
+  },
+  "hide": {
+    "message": "Ausblenden"
+  },
+  "stop": {
+    "message": "Stoppen"
+  },
+  "reload": {
+    "message": "Seite neu laden"
+  },
+  "starting": {
+    "message": "Wird gestartet…"
+  },
+  "collecting": {
+    "message": "Deine Reposts werden gesammelt…"
+  },
+  "found": {
+    "message": "Wird gesammelt… {n} gefunden"
+  },
+  "deleting": {
+    "message": "Reposts werden entfernt…"
+  },
+  "throttled": {
+    "message": "TikTok bremst, warte {n} s…"
+  },
+  "of": {
+    "message": "von {n}"
+  },
+  "rate": {
+    "message": "{n}/s"
+  },
+  "stopping": {
+    "message": "Wird gestoppt…"
+  },
+  "stopped": {
+    "message": "Gestoppt. Entfernt: {n}."
+  },
+  "none": {
+    "message": "Keine Reposts – nichts zu entfernen."
+  },
+  "done": {
+    "message": "Fertig! Entfernte Reposts: {n}."
+  },
+  "failedTail": {
+    "message": " Fehlgeschlagen: {n}."
+  },
+  "notLoggedIn": {
+    "message": "Du scheinst nicht bei TikTok angemeldet zu sein. Melde dich an und klicke erneut auf den Button."
+  },
+  "limited": {
+    "message": "TikTok begrenzt gerade die Anfragen. Entfernt: {n}. Versuch es in ein paar Minuten noch einmal."
+  }
+}
