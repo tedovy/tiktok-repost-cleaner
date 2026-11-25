@@ -33,7 +33,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     return true; // async response
   }
   if (message?.cmd === "tiktokReady" && sender.tab?.id != null) {
-    onTikTokReady(sender.tab.id, sender.url || sender.tab.url || "");
+    onTikTokReady(sender.tab.id, sender.url || sender.tab.url || "").catch(() => {});
   }
 });
 
@@ -46,16 +46,25 @@ async function start(options) {
     return;
   }
 
+  // Remember the job before navigating, so the page can't load before we know about it.
   const onTikTok = active?.url?.startsWith("https://www.tiktok.com/");
-  const tab = onTikTok
-    ? await chrome.tabs.update(active.id, { url: PROFILE_URL, active: true })
-    : await chrome.tabs.create({ url: PROFILE_URL, active: true });
-
+  const tab = onTikTok ? active : await chrome.tabs.create({ url: "about:blank", active: true });
   await chrome.storage.session.set({ [pendingKey(tab.id)]: { options, at: Date.now() } });
+  await chrome.tabs.update(tab.id, { url: PROFILE_URL, active: true });
 }
 
-// Called by ready.js as soon as a TikTok page starts (document_start).
+// Backup trigger in case the page reaches the profile without a fresh load (in-page redirect).
+chrome.tabs.onUpdated.addListener((tabId, info, tab) => {
+  if (info.url || info.status === "complete") onTikTokReady(tabId, tab.url || "").catch(() => {});
+});
+
+chrome.tabs.onRemoved.addListener((tabId) => {
+  chrome.storage.session.remove(pendingKey(tabId)).catch(() => {});
+});
+
+// Called by ready.js as soon as a TikTok page starts (document_start), or by the backup trigger.
 async function onTikTokReady(tabId, url) {
+  if (!url.startsWith("https://www.tiktok.com/")) return;
   const key = pendingKey(tabId);
   const { [key]: job } = await chrome.storage.session.get(key);
   if (!job) return;

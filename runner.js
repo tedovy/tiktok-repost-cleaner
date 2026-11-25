@@ -136,6 +136,7 @@
     const queue = [];
     const pages = new Map(); // page index -> ids, waiting to be handed over in order
     const waiting = [];      // removers waiting for work
+    const scanWaiting = [];  // scanners waiting to see if more pages are needed
     let nextPage = 0;        // next page to request
     let flushed = 0;         // pages already handed to the removers
     let endPage = Infinity;  // first page index past the end of the list
@@ -144,7 +145,10 @@
     let cut = false;         // the scan stopped early because TikTok refused a page
     const startedAt = performance.now();
 
-    const wakeAll = () => { while (waiting.length) waiting.pop()(); };
+    const wakeAll = () => {
+      while (waiting.length) waiting.pop()();
+      while (scanWaiting.length) scanWaiting.pop()();
+    };
 
     const flush = () => {
       while (pages.has(flushed) && queued < limit) {
@@ -164,8 +168,16 @@
       wakeAll();
     };
 
+    // In "latest N" mode, don't request another page while the pages already on their way
+    // could cover what's left; only read further if holes left us short.
+    const enoughInFlight = () => (nextPage - flushed) * PAGE_SIZE >= limit - queued;
+
     const scanner = async () => {
       while (!state.stop && nextPage < endPage && nextPage < MAX_PAGES) {
+        if (limit !== Infinity && enoughInFlight()) {
+          await new Promise((resolve) => scanWaiting.push(resolve));
+          continue;
+        }
         const page = nextPage++;
         let r;
         try {
@@ -174,6 +186,7 @@
           // TikTok kept refusing this page: stop here; the next pass will try again.
           endPage = Math.min(endPage, page);
           cut = true;
+          wakeAll();
           break;
         }
         if (!r.hasMore) endPage = Math.min(endPage, page + 1);
@@ -204,8 +217,10 @@
       }
     };
 
+    // For "latest N" there's no point reading far ahead: the list API is what TikTok rate-limits.
+    const scanners = Math.max(1, Math.min(speed.pages, Math.ceil(limit / PAGE_SIZE) + 1));
     const removers = Array.from({ length: speed.workers }, remover);
-    await Promise.all(Array.from({ length: speed.pages }, scanner));
+    await Promise.all(Array.from({ length: scanners }, scanner));
     scanning = false;
     flush();
     await Promise.all(removers);
